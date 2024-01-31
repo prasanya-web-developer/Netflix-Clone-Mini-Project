@@ -1,0 +1,58 @@
+.top-rated-movie-container {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 576px) {
+  .top-rated-movie-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .top-rated-movie-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 992px) {
+  li {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+/*.top-rated-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 165px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+*/
+.top-movie-un-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 576px) {
+  .top-movie-un-list {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .top-movie-un-list {
+    margin-left: 30px;
+  }
+}

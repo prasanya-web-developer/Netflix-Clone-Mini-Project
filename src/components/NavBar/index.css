@@ -1,0 +1,258 @@
+.icons-container {
+  display: flex;
+  align-items: center;
+}
+
+.transparent-bg {
+  background-color: #13131360;
+  min-height: 75px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .transparent-bg {
+    height: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .transparent-bg {
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.black-bg {
+  background-color: #000000;
+  min-height: 75px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .black-bg {
+    background-color: #000000;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 75px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .black-bg {
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 32px 24px 32px;
+  align-items: center;
+  height: 100%;
+}
+
+.website-logo-nav-bar {
+  width: 100px;
+  height: 27px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo-nav-bar {
+    height: 39px;
+    width: 135px;
+    margin-right: 48px;
+  }
+}
+
+.icons {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.search-route-icon {
+  font-size: 12px;
+}
+
+.hamburger {
+  font-size: 26px;
+}
+
+.show-menu {
+  height: 20px;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 8px 32px 8px 32px;
+}
+
+@media screen and (min-width: 576px) {
+  .show-menu {
+    width: 70%;
+    margin-left: 160px;
+  }
+}
+
+.menu-items {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+  .menu-items {
+    font-size: 20px;
+    margin-top: 14px;
+  }
+}
+
+.close-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+.search-input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.search-input-route-container {
+  border: 1px solid #ffffff;
+  padding: 4px 0px 4px 8px;
+  border-radius: 4px;
+  height: 24px;
+  width: 114px;
+}
+
+@media screen and (max-width: 768px) {
+  .search-input-route-container {
+    margin-left: 10px;
+  }
+}
+
+.search-input {
+  width: 100%;
+  height: 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #babdc2;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.search-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin-right: 8px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-route-btn {
+  height: 22px;
+  width: 30px;
+  background-color: #2c2b2b;
+  border-radius: 0px 3px 3px 0px;
+  margin: 0;
+}
+
+.close {
+  font-size: 20px;
+}
+
+.show1 {
+  display: none;
+}
+
+.highlight {
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .show1 {
+    display: flex;
+  }
+
+  .header {
+    padding: 0px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .show {
+    display: none;
+  }
+
+  .show-menu {
+    margin: 0;
+    justify-content: flex-start;
+  }
+  .menu-items {
+    margin-right: 38px;
+  }
+
+  .avatar {
+    width: 48px;
+    height: 48px;
+    margin-left: 32px;
+  }
+
+  .icons-container {
+    align-items: center;
+  }
+
+  .highlight {
+    font-weight: 700;
+  }
+
+  .search-input-route-container {
+    height: 40px;
+    width: 264px;
+  }
+
+  .search-input {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .search-route-icon {
+    font-size: 15px;
+  }
+
+  .search-route-btn {
+    height: 38px;
+    width: 50px;
+  }
+}

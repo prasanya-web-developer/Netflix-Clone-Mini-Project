@@ -1,0 +1,22 @@
+.popular-pg-container {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.popular-movie-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-movie-list-container {
+    width: 100%;
+  }
+}
